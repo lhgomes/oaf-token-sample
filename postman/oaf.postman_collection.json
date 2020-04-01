@@ -35,7 +35,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://{{authURL}}/v1/{{applicationId}}/get-token",
+							"raw": "{{authURL}}/{{applicationId}}/get-token",
 							"protocol": "https",
 							"host": [
 								"{{authURL}}"
@@ -76,7 +76,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://{{authURL}}/v1/{{applicationId}}/refresh-token",
+							"raw": "{{authURL}}/{{applicationId}}/refresh-token",
 							"protocol": "https",
 							"host": [
 								"{{authURL}}"
@@ -117,7 +117,7 @@
 							}
 						},
 						"url": {
-							"raw": "https://{{authURL}}/v1/{{applicationId}}/challenge-response",
+							"raw": "{{authURL}}/{{applicationId}}/challenge-response",
 							"protocol": "https",
 							"host": [
 								"{{authURL}}"
