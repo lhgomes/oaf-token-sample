@@ -151,7 +151,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://{{apiURL}}/v1/pets",
+							"raw": "{{apiURL}}",
 							"protocol": "https",
 							"host": [
 								"{{apiURL}}"
